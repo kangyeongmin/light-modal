@@ -2,8 +2,11 @@
 
 Try using a Modal with a useState Hook from where you want to use it!
 
+<div>
 <img src="./src/lib/assets/modal-close.png" width="150px" height="300px">
 <img src="./src/lib/assets/modal-open.png" width="155px" height="300px">
+</div>
+
 
 <br/>
 

@@ -1,6 +1,6 @@
 {
   "name": "woowa-light-modal",
-  "version": "0.2.0",
+  "version": "0.2.3",
   "module": "dist/Modal.js",
   "main": "dist/Modal.js",
   "dependencies": {

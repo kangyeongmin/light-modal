@@ -18,11 +18,15 @@ Try using a Modal with a useState Hook from where you want to use it!
 
 ## `Installation`
 
+#### npm
+
 ```bash
 npm install woowa-light-modal
+```
 
-or
+#### yarn
 
+```bash
 yarn add woowa-light-modal
 ```
 
@@ -55,6 +59,28 @@ export default App;
 This example will render 'open' button which is an trigger independent on `Modal`. When you click the button, The `Modal` is open from the Bottom. You can add the children between the `<Modal>` Tags and also give state, handler and height of Modal you wants.
 
 If you want to toggle the Modal, make a handler function which includes `setState` like that example.
+
+## `Options`
+
+#### children: ReactNode
+
+: One or multiple children.
+
+#### height: string
+
+: height(style) of Modal
+
+#### isOpen: boolean
+
+-> opened state of Modal
+
+#### onClose: () => void
+
+-> Callback functions, triggered when clicked Backdrop.
+
+```bash
+yarn add woowa-light-modal
+```
 
 ## Learn More
 
